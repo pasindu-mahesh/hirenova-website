@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HireNova Domain — Literature Survey, Research Gap, Objectives, Methodology and Technologies.">
+  <title>Domain — HireNova</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="domain-page">
+
+  <!-- Main Top Header -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="HireNova Homepage">
+        <span class="brand-text">HIRE<span class="brand-accent">NOVA</span></span>
+      </a>
+
+      <nav class="nav" aria-label="Primary Navigation">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html">Home</a></li>
+          <li><a class="nav__link active" href="domain.html" aria-current="page">Domain</a></li>
+          <li><a class="nav__link" href="milestones.html">Milestones</a></li>
+          <li><a class="nav__link" href="documents.html">Documents</a></li>
+          <li><a class="nav__link" href="slides.html">Slides</a></li>
+          <li><a class="nav__link" href="about.html">About us</a></li>
+          <li><a class="nav__link" href="contact.html">Contact us</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__tools">
+        <button class="search-btn" aria-label="Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Domain Hero / Banner Section -->
+    <section class="domain-hero">
+      <div class="hero-grid-bg"></div>
+      <div class="container">
+        <div class="domain-breadcrumb">Home / Domain</div>
+        <h1 class="domain-title">Domain</h1>
+        <p class="domain-subtitle">The research background, problem and approach behind HireNova.</p>
+      </div>
+    </section>
+
+    <!-- Main Domain 2-Column Content Layout -->
+    <section class="domain-main-section">
+      <div class="container domain-container">
+        <div class="domain-layout">
+          
+          <!-- Sticky Left Sidebar Navigation -->
+          <aside class="domain-sidebar-wrapper">
+            <div class="domain-sidebar-card">
+              <div class="sidebar-header">On this page</div>
+              <nav class="sidebar-nav">
+                <a href="#literature-survey" class="sidebar-link active">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                  </svg>
+                  Literature Survey
+                </a>
+                <a href="#research-gap" class="sidebar-link">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
+                  Research Gap
+                </a>
+                <a href="#research-problem" class="sidebar-link">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                  </svg>
+                  Research Problem
+                </a>
+                <a href="#research-objectives" class="sidebar-link">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <circle cx="12" cy="12" r="6"></circle>
+                    <circle cx="12" cy="12" r="2"></circle>
+                  </svg>
+                  Research Objectives
+                </a>
+                <a href="#methodology" class="sidebar-link">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                  </svg>
+                  Methodology
+                </a>
+                <a href="#technologies-used" class="sidebar-link">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                    <path d="M21 19c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  </svg>
+                  Technologies Used
+                </a>
+              </nav>
+            </div>
+          </aside>
+
+          <!-- Right Content Column -->
+          <div class="domain-content">
+            
+            <!-- Section 1: Literature Survey -->
+            <section id="literature-survey" class="domain-block">
+              <h2 class="domain-block-title">1. LITERATURE SURVEY</h2>
+              <p class="domain-block-sub">Existing AI interview and candidate-assessment tools compared with HireNova.</p>
+
+              <!-- Comparison Table -->
+              <div class="table-responsive-wrap">
+                <table class="domain-table">
+                  <thead>
+                    <tr>
+                      <th class="col-cap">Capability</th>
+                      <th>HireVue</th>
+                      <th>Pymetrics</th>
+                      <th>Modern Hire</th>
+                      <th class="col-neuroshell">HireNova</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Résumé + GitHub skill-graph inference</td>
+                      <td class="col-cross">&#10005;</td>
+                      <td class="col-cross">&#10005;</td>
+                      <td class="col-cross">&#10005;</td>
+                      <td class="col-check-neuroshell">&#10003;</td>
+                    </tr>
+                    <tr>
+                      <td>Interview difficulty adapted from live behavioural signals</td>
+                      <td class="col-cross">&#10005;</td>
+                      <td class="col-cross">&#10005;</td>
+                      <td class="col-cross">&#10005;</td>
+                      <td class="col-check-neuroshell">&#10003;</td>
+                    </tr>
+                    <tr>
+                      <td>Accent-invariant acoustic confidence</td>
+                      <td class="col-cross">&#10005;</td>
+                      <td class="col-cross">&#10005;</td>
+                      <td class="col-cross">&#10005;</td>
+                      <td class="col-check-neuroshell">&#10003;</td>
+                    </tr>
+                    <tr>
+                      <td>Explainable multi-modal fusion (profile + audio + video)</td>
+                      <td class="col-cross">&#10005;</td>
+                      <td class="col-cross">&#10005;</td>
+                      <td class="col-cross">&#10005;</td>
+                      <td class="col-check-neuroshell">&#10003;</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <!-- References Box -->
+              <div class="references-box">
+                <div class="references-header">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                  </svg>
+                  References
+                </div>
+                <div class="references-list">
+                  <a class="ref-link" href="https://arxiv.org/abs/1706.02216" target="_blank" rel="noopener">Inductive Representation Learning on Large Graphs (GraphSAGE)</a>
+                  <a class="ref-link" href="https://arxiv.org/abs/2006.11477" target="_blank" rel="noopener">wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations</a>
+                  <a class="ref-link" href="https://arxiv.org/abs/1908.10084" target="_blank" rel="noopener">Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks</a>
+                  <a class="ref-link" href="https://arxiv.org/abs/1705.09406" target="_blank" rel="noopener">Multimodal Machine Learning: A Survey and Taxonomy</a>
+                </div>
+              </div>
+            </section>
+
+            <!-- Section 2: Research Gap -->
+            <section id="research-gap" class="domain-block">
+              <h2 class="domain-block-title">2. RESEARCH GAP</h2>
+              <div class="alert-box alert-box--gap">
+                <div class="alert-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#16A765" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 18h6"></path>
+                    <path d="M10 22h4"></path>
+                    <path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"></path>
+                  </svg>
+                </div>
+                <div class="alert-text">
+                  No existing tool combines explainable skill-graph inference with an interview whose difficulty adapts to live, accent-invariant audio and consent-aware visual signals.
+                </div>
+              </div>
+            </section>
+
+            <!-- Section 3: Research Problem -->
+            <section id="research-problem" class="domain-block">
+              <h2 class="domain-block-title">3. RESEARCH PROBLEM</h2>
+              <p class="domain-block-sub">Hiring teams screen hundreds of résumés and run interviews by hand, while candidate evaluation stays inconsistent and hard to justify.</p>
+
+              <div class="problem-cards-grid">
+                <!-- Card 01 -->
+                <article class="prob-card prob-card--blue">
+                  <div class="prob-card__head">
+                    <span class="prob-badge badge--blue">01</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16A765" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    </svg>
+                  </div>
+                  <h3 class="prob-card__title">Keyword screening hides real skills</h3>
+                  <p class="prob-card__text">Résumés are matched by keywords, so implied competencies are missed.</p>
+                </article>
+
+                <!-- Card 02 -->
+                <article class="prob-card prob-card--teal">
+                  <div class="prob-card__head">
+                    <span class="prob-badge badge--teal">02</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#087443" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="3"></circle>
+                      <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                    </svg>
+                  </div>
+                  <h3 class="prob-card__title">Interviews never adapt</h3>
+                  <p class="prob-card__text">Fixed question sets ignore each candidate's performance and delivery.</p>
+                </article>
+
+                <!-- Card 03 -->
+                <article class="prob-card prob-card--emerald">
+                  <div class="prob-card__head">
+                    <span class="prob-badge badge--emerald">03</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16A765" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                      <path d="M6 8l4 4-4 4"></path>
+                      <path d="M12 16h6"></path>
+                    </svg>
+                  </div>
+                  <h3 class="prob-card__title">Accent biases speech scoring</h3>
+                  <p class="prob-card__text">Confidence is judged on wording and accent rather than the acoustic signal.</p>
+                </article>
+
+                <!-- Card 04 -->
+                <article class="prob-card prob-card--amber">
+                  <div class="prob-card__head">
+                    <span class="prob-badge badge--amber">04</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16A765" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                  </div>
+                  <h3 class="prob-card__title">Behaviour is over-claimed</h3>
+                  <p class="prob-card__text">Gaze and facial movement are misread as deception, producing false positives.</p>
+                </article>
+              </div>
+            </section>
+
+            <!-- Section 4: Research Objectives -->
+            <section id="research-objectives" class="domain-block">
+              <h2 class="domain-block-title">4. RESEARCH OBJECTIVES</h2>
+              
+              <!-- Objective Banner -->
+              <div class="alert-box alert-box--objective">
+                <div class="alert-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#16A765" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <circle cx="12" cy="12" r="6"></circle>
+                    <circle cx="12" cy="12" r="2"></circle>
+                  </svg>
+                </div>
+                <div class="alert-text">
+                  Make AI-assisted hiring more reliable, explainable and fair — from résumé evidence through to a human-reviewed decision.
+                </div>
+              </div>
+
+              <!-- Objectives List Rows -->
+              <div class="objectives-list">
+                <div class="obj-item">
+                  <span class="obj-badge badge--blue">01</span>
+                  <span class="obj-text">Build an explainable 0–10 competency profile from a résumé, public GitHub activity and a skill knowledge graph.</span>
+                </div>
+                <div class="obj-item">
+                  <span class="obj-badge badge--teal">02</span>
+                  <span class="obj-text">Report visual behaviour as observations only — gaze and brief facial movement — and never as deception.</span>
+                </div>
+                <div class="obj-item">
+                  <span class="obj-badge badge--emerald">03</span>
+                  <span class="obj-text">Estimate delivery confidence accent-invariantly from the acoustic signal, not transcript wording.</span>
+                </div>
+                <div class="obj-item">
+                  <span class="obj-badge badge--amber">04</span>
+                  <span class="obj-text">Ground questions in the job description and adapt difficulty to performance, stress and reliability.</span>
+                </div>
+              </div>
+
+              <!-- Metrics Target Cards Row -->
+              <div class="metrics-row">
+                <div class="metric-pill-card">0–10 competency score</div>
+                <div class="metric-pill-card">Per-skill explainability</div>
+                <div class="metric-pill-card">Accent-invariant delivery labels</div>
+                <div class="metric-pill-card">Human makes the decision</div>
+              </div>
+            </section>
+
+            <!-- Section 5: Methodology -->
+            <section id="methodology" class="domain-block">
+              <h2 class="domain-block-title">5. METHODOLOGY</h2>
+
+              <!-- Top Pipeline Diagram -->
+              <div class="methodology-pipeline-wrapper">
+                <div class="methodology-diagram">
+                  <!-- Node 1 -->
+                  <div class="method-node node--blue">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    </svg>
+                    <span>01 CV &amp; Skill Graph</span>
+                  </div>
+
+                  <div class="pipeline-arrow">&rarr;</div>
+
+                  <!-- Node 2 -->
+                  <div class="method-node node--teal">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                      <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                      <path d="M21 19c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                    </svg>
+                    <span>02 Visual Behaviour</span>
+                  </div>
+
+                  <div class="pipeline-arrow">&rarr;</div>
+
+                  <!-- Node 3 -->
+                  <div class="method-node node--emerald">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                      <path d="M6 8l4 4-4 4"></path>
+                    </svg>
+                    <span>03 Speech Confidence</span>
+                  </div>
+
+                  <div class="pipeline-arrow">&rarr;</div>
+
+                  <!-- Node 4 -->
+                  <div class="method-node node--amber">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    <span>04 Adaptive Interview</span>
+                  </div>
+                </div>
+
+                <!-- Loopback Line -->
+                <div class="pipeline-loopback">
+                  <div class="loopback-line"></div>
+                </div>
+              </div>
+
+              <!-- 4 Detailed Module Columns Grid -->
+              <div class="methodology-cards-grid">
+                <!-- Column 01: CV & Skill Graph -->
+                <div class="method-card method-card--blue" id="cv-skill-graph">
+                  <div class="method-card-header header--blue">01 CV &amp; Skill Graph</div>
+                  <ul class="method-sub-list">
+                    <li><span class="sub-num sub-num--blue">01</span> Résumé text extraction</li>
+                    <li><span class="sub-num sub-num--blue">02</span> GitHub evidence mining</li>
+                    <li><span class="sub-num sub-num--blue">03</span> Skill knowledge graph (GNN)</li>
+                    <li><span class="sub-num sub-num--blue">04</span> Weighted score fusion</li>
+                    <li><span class="sub-num sub-num--blue">05</span> Per-skill explainability</li>
+                  </ul>
+                </div>
+
+                <!-- Column 02: Visual Behaviour -->
+                <div class="method-card method-card--teal" id="visual-behaviour">
+                  <div class="method-card-header header--teal">02 Visual Behaviour</div>
+                  <ul class="method-sub-list">
+                    <li><span class="sub-num sub-num--teal">01</span> Face / region detector</li>
+                    <li><span class="sub-num sub-num--teal">02</span> Gaze branch (per-candidate baseline)</li>
+                    <li><span class="sub-num sub-num--teal">03</span> Micro-expression branch</li>
+                    <li><span class="sub-num sub-num--teal">04</span> Fusion + REVIEW flag</li>
+                    <li><span class="sub-num sub-num--teal">05</span> Summary &amp; disclaimer</li>
+                  </ul>
+                </div>
+
+                <!-- Column 03: Speech Confidence -->
+                <div class="method-card method-card--emerald" id="speech-confidence">
+                  <div class="method-card-header header--emerald">03 Speech Confidence</div>
+                  <ul class="method-sub-list">
+                    <li><span class="sub-num sub-num--emerald">01</span> 6 s audio @ 16 kHz</li>
+                    <li><span class="sub-num sub-num--emerald">02</span> Frozen Wav2Vec2 encoder</li>
+                    <li><span class="sub-num sub-num--emerald">03</span> Mean-pool + Transformer heads</li>
+                    <li><span class="sub-num sub-num--emerald">04</span> Delivery labels + vocal stress</li>
+                    <li><span class="sub-num sub-num--emerald">05</span> Acoustic-only, accent-invariant</li>
+                  </ul>
+                </div>
+
+                <!-- Column 04: Adaptive Interview -->
+                <div class="method-card method-card--amber" id="adaptive-interview">
+                  <div class="method-card-header header--amber">04 Adaptive Interview</div>
+                  <ul class="method-sub-list">
+                    <li><span class="sub-num sub-num--amber">01</span> Job description → topics</li>
+                    <li><span class="sub-num sub-num--amber">02</span> Semantic answer scoring</li>
+                    <li><span class="sub-num sub-num--amber">03</span> Adaptive difficulty (score × stress × reliability)</li>
+                    <li><span class="sub-num sub-num--amber">04</span> Follow-up / fact-weave branching</li>
+                    <li><span class="sub-num sub-num--amber">05</span> Closing summary</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
+            <!-- Section 6: Technologies Used -->
+            <section id="technologies-used" class="domain-block">
+              <h2 class="domain-block-title">6. TECHNOLOGIES USED</h2>
+
+              <div class="tech-grid">
+                <!-- Category 1 -->
+                <div class="tech-col">
+                  <h3 class="tech-col-title">AI &amp; ML</h3>
+                  <div class="tech-pills">
+                    <span class="tech-pill">Wav2Vec2 (large-robust)</span>
+                    <span class="tech-pill">Sentence-BERT (all-MiniLM-L6-v2)</span>
+                    <span class="tech-pill">GraphSAGE (PyTorch Geometric)</span>
+                    <span class="tech-pill">YOLO detector</span>
+                    <span class="tech-pill">MediaPipe FaceLandmarker</span>
+                    <span class="tech-pill">phi-3-mini (LM Studio)</span>
+                    <span class="tech-pill">faster-whisper</span>
+                  </div>
+                </div>
+
+                <!-- Category 2 -->
+                <div class="tech-col">
+                  <h3 class="tech-col-title">Backend &amp; data</h3>
+                  <div class="tech-pills">
+                    <span class="tech-pill">Python</span>
+                    <span class="tech-pill">Flask</span>
+                    <span class="tech-pill">FastAPI</span>
+                    <span class="tech-pill">Node.js / Express</span>
+                    <span class="tech-pill">Redis</span>
+                    <span class="tech-pill">MongoDB</span>
+                  </div>
+                </div>
+
+                <!-- Category 3 -->
+                <div class="tech-col">
+                  <h3 class="tech-col-title">Speech &amp; vision tooling</h3>
+                  <div class="tech-pills">
+                    <span class="tech-pill">PyTorch</span>
+                    <span class="tech-pill">torchaudio</span>
+                    <span class="tech-pill">librosa</span>
+                    <span class="tech-pill">OpenCV</span>
+                    <span class="tech-pill">pdfplumber</span>
+                    <span class="tech-pill">pytesseract OCR</span>
+                  </div>
+                </div>
+
+                <!-- Category 4 -->
+                <div class="tech-col">
+                  <h3 class="tech-col-title">Deployment &amp; data</h3>
+                  <div class="tech-pills">
+                    <span class="tech-pill">Docker</span>
+                    <span class="tech-pill">LM Studio</span>
+                    <span class="tech-pill">HuggingFace Spaces</span>
+                    <span class="tech-pill">GitHub REST API</span>
+                    <span class="tech-pill">SAMM dataset</span>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Main Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer-brand-col">
+          <a class="footer-brand" href="index.html">
+            <span class="footer-brand-text">HIRE<span class="brand-accent">NOVA</span></span>
+          </a>
+          <p class="footer-desc">An adaptive, multi-modal AI interview and candidate assessment platform.</p>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer__title">Quick Links</h4>
+          <ul class="footer__list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="domain.html">Domain</a></li>
+            <li><a href="milestones.html">Milestones</a></li>
+            <li><a href="documents.html">Documents</a></li>
+            <li><a href="slides.html">Slides</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-info-col">
+          <h4 class="footer__title">Project Info</h4>
+          <ul class="footer-info-list">
+            <li>Group ID: R26-IT-105</li>
+            <li>SLIIT Faculty of Computing</li>
+            <li>B.Sc. (Hons) Information Technology</li>
+          </ul>
+        </div>
+
+        <div class="footer-contact-col">
+          <h4 class="footer__title">Contact</h4>
+          <ul class="footer-contact-list">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <a href="mailto:it21191510@sliit.lk">it21191510@sliit.lk</a>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <a href="tel:+94765409121">+94 76 540 9121</a>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              Faculty of Computing, SLIIT, New Kandy Road, Malabe, Sri Lanka
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span class="copyright-text">&copy; <span data-year>2026</span> HireNova &middot; R26-IT-105 &middot; SLIIT Faculty of Computing</span>
+        <button class="back-to-top-btn" aria-label="Back to top">
+          Back to top
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

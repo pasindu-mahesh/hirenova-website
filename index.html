@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HireNova — An Adaptive, Multi-Modal AI Interview and Candidate Assessment Platform.">
+  <title>HireNova — AI Interview &amp; Candidate Intelligence Platform</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="home-page">
+
+  <!-- Main Top Header -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="HireNova Homepage">
+        <span class="brand-text">HIRE<span class="brand-accent">NOVA</span></span>
+      </a>
+
+      <nav class="nav" aria-label="Primary Navigation">
+        <ul class="nav__list">
+          <li><a class="nav__link active" href="index.html" aria-current="page">Home</a></li>
+          <li><a class="nav__link" href="domain.html">Domain</a></li>
+          <li><a class="nav__link" href="milestones.html">Milestones</a></li>
+          <li><a class="nav__link" href="documents.html">Documents</a></li>
+          <li><a class="nav__link" href="slides.html">Slides</a></li>
+          <li><a class="nav__link" href="about.html">About us</a></li>
+          <li><a class="nav__link" href="contact.html">Contact us</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__tools">
+        <button class="search-btn" aria-label="Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <!-- Circuit Traces Left & Right -->
+      <!--<svg class="hero-circuit-left" width="220" height="380" viewBox="0 0 220 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 40H60L100 80H160" stroke="#16A765" stroke-width="1.5" opacity="0.6"/>
+        <circle cx="160" cy="80" r="3.5" fill="#16A765"/>
+        <path d="M0 140H40L80 180H140" stroke="#16A765" stroke-width="1.5" opacity="0.6"/>
+        <circle cx="140" cy="180" r="3.5" fill="#16A765"/>
+        <path d="M0 260H80L120 220H180" stroke="#16A765" stroke-width="1.5" opacity="0.6"/>
+        <circle cx="180" cy="220" r="3.5" fill="#16A765"/>
+        <path d="M0 320H50L90 350H130" stroke="#16A765" stroke-width="1.5" opacity="0.6"/>
+        <circle cx="130" cy="350" r="3.5" fill="#16A765"/>
+      </svg>-->
+
+      <!--<svg class="hero-circuit-right" width="220" height="380" viewBox="0 0 220 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M220 50H160L120 90H60" stroke="#16A765" stroke-width="1.5" opacity="0.6"/>
+        <circle cx="60" cy="90" r="3.5" fill="#16A765"/>
+        <path d="M220 160H180L140 120H80" stroke="#16A765" stroke-width="1.5" opacity="0.6"/>
+        <circle cx="80" cy="120" r="3.5" fill="#16A765"/>
+        <path d="M220 270H140L100 310H40" stroke="#16A765" stroke-width="1.5" opacity="0.6"/>
+        <circle cx="40" cy="310" r="3.5" fill="#16A765"/>
+      </svg>-->
+
+      <div class="container hero__inner">
+        <!-- Left Hero Content -->
+        <div class="hero-content">
+          <p class="hero-eyebrow">R26-IT-105 &middot; SLIIT FACULTY OF COMPUTING</p>
+          <h1 class="hero-title">HireNova</h1>
+          <h2 class="hero-subtitle">An Adaptive, Multi-Modal AI Interview and Candidate Assessment Platform</h2>
+          <p class="hero-lead">Post a role. HireNova reads the résumés, runs the interview, watches and listens, and adapts every question to the candidate in front of it.</p>
+          
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#overview">Explore the Research</a>
+            <a class="btn btn--outline" href="milestones.html">View Milestones</a>
+          </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- Sub-header Sticky / Section Quick-Bar -->
+    <div class="subnav-bar-wrapper">
+      <nav class="subnav-pill" aria-label="Page Sections Navigation">
+        <span class="subnav-label">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+          </svg>
+          ON THIS PAGE
+          <span class="label-divider">|</span>
+        </span>
+        <div class="subnav-links">
+          <a href="#overview" class="subnav-link active">Overview</a>
+          <a href="#pipeline" class="subnav-link">Pipeline</a>
+          <a href="#components" class="subnav-link">Components</a>
+          <a href="#progress" class="subnav-link">Progress</a>
+          <a href="#team" class="subnav-link">Team</a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Section 1: Overview -->
+    <section id="overview" class="section overview-section">
+      <div class="container">
+        <h2 class="section-title">Overview</h2>
+
+        <div class="overview-grid">
+          <!-- Problem Card -->
+          <article class="overview-card">
+            <div class="overview-card__header">
+              <div class="card-icon-circle icon-circle--blue">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#16A765" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="8" x2="12" y2="12"></line>
+                  <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                </svg>
+              </div>
+              <h3 class="overview-card__title">The problem</h3>
+            </div>
+            <p class="overview-card__text">Hiring teams screen hundreds of résumés and run interviews by hand. Candidates are reduced to keywords, interview difficulty never changes, and human judgement varies from panel to panel.</p>
+          </article>
+
+          <!-- Solution Card -->
+          <article class="overview-card">
+            <div class="overview-card__header">
+              <div class="card-icon-circle icon-circle--blue">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#16A765" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 18h6"></path>
+                  <path d="M10 22h4"></path>
+                  <path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"></path>
+                </svg>
+              </div>
+              <h3 class="overview-card__title">Our solution</h3>
+            </div>
+            <p class="overview-card__text">HireNova fuses an explainable skill graph, a job-grounded adaptive interview, accent-invariant speech confidence and consent-aware visual behaviour into one competency profile a human can review.</p>
+          </article>
+        </div>
+
+        <!-- 3 Stat Metrics Cards -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-value">250</div>
+            <div class="stat-label">Average applications per corporate job opening</div>
+            <div class="stat-source">Glassdoor, 2022</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-value">46%</div>
+            <div class="stat-label">New hires who fail within their first 18 months</div>
+            <div class="stat-source">Leadership IQ</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-value">$15K</div>
+            <div class="stat-label">Average cost of a single bad hire</div>
+            <div class="stat-source">CareerBuilder</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 2: How it works & Pipeline -->
+    <section id="pipeline" class="section how-it-works-section">
+      <div class="container">
+        <h2 class="section-title">How it works</h2>
+
+        <!-- Pipeline Workflow Diagram -->
+        <div class="pipeline-flow-wrapper">
+          <div class="pipeline-diagram">
+            <!-- Step 0: Input -->
+            <div class="pipeline-node pipeline-node--input">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <span>Candidate application</span>
+            </div>
+
+            <div class="pipeline-arrow">&rarr;</div>
+
+            <!-- Step 01 -->
+            <div class="pipeline-node pipeline-node--step1">
+              <span class="node-num">01</span> CV &amp; Skill Graph
+            </div>
+
+            <div class="pipeline-arrow">&rarr;</div>
+
+            <!-- Step 02 -->
+            <div class="pipeline-node pipeline-node--step2" id="node-step2">
+              <span class="node-num">02</span> Adaptive Interview
+            </div>
+
+            <div class="pipeline-arrow">&rarr;</div>
+
+            <!-- Step 03 -->
+            <div class="pipeline-node pipeline-node--step3">
+              <span class="node-num">03</span> Speech Analysis
+            </div>
+
+            <div class="pipeline-arrow">&rarr;</div>
+
+            <!-- Step 04 -->
+            <div class="pipeline-node pipeline-node--step4" id="node-step4">
+              <span class="node-num">04</span> Visual Behaviour
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 3: Components (4 Cards Grid) -->
+        <div id="components" class="components-grid">
+          <!-- Component 1 -->
+          <article class="component-card component-card--blue">
+            <div class="component-card__badge badge--blue">01</div>
+            <h3 class="component-card__title">Skill Knowledge Graph &amp; CV Analyzer</h3>
+            <div class="component-card__author">Mendis A.S.P</div>
+            <p class="component-card__desc">Turns a résumé and public GitHub activity into an explainable 0–10 competency profile.</p>
+            <a class="component-card__link link--blue" href="domain.html#cv-skill-graph" data-modal-open="cv-skill-graph-modal">Learn more &rarr;</a>
+          </article>
+
+          <!-- Component 2 -->
+          <article class="component-card component-card--teal">
+            <div class="component-card__badge badge--teal">02</div>
+            <h3 class="component-card__title">Visual Behaviour &amp; Micro-Expression</h3>
+            <div class="component-card__author">M N Kannangara</div>
+            <p class="component-card__desc">Tracks gaze and brief facial movements, reporting observations only — never deception.</p>
+            <a class="component-card__link link--teal" href="domain.html#visual-behaviour" data-modal-open="visual-behaviour-modal">Learn more &rarr;</a>
+          </article>
+
+          <!-- Component 3 -->
+          <article class="component-card component-card--emerald">
+            <div class="component-card__badge badge--emerald">03</div>
+            <h3 class="component-card__title">Accent-Invariant Speech Confidence</h3>
+            <div class="component-card__author">Nanayakkara N.H.R.M</div>
+            <p class="component-card__desc">Reads delivery confidence from the acoustic signal, independent of the speaker's accent.</p>
+            <a class="component-card__link link--emerald" href="domain.html#speech-confidence" data-modal-open="speech-confidence-modal">Learn more &rarr;</a>
+          </article>
+
+          <!-- Component 4 -->
+          <article class="component-card component-card--amber">
+            <div class="component-card__badge badge--amber">04</div>
+            <h3 class="component-card__title">Adaptive AI Interview</h3>
+            <div class="component-card__author">Kannangara P.M.K</div>
+            <p class="component-card__desc">Maya asks job-grounded questions whose difficulty adapts to every answer.</p>
+            <a class="component-card__link link--amber" href="domain.html#adaptive-interview" data-modal-open="adaptive-interview-modal">Learn more &rarr;</a>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 4: Where we are -->
+    <section id="progress" class="section where-we-are-section">
+      <div class="container">
+        <h2 class="section-title">Where we are</h2>
+        <p class="section-subtitle">Progress at Progress Presentation 1</p>
+
+        <div class="progress-grid">
+          <!-- Item 1 -->
+          <div class="progress-item">
+            <div class="progress-item__head">
+              <span class="progress-item__badge badge--blue">01</span>
+              <span class="progress-item__title">CV &amp; Skill Graph</span>
+              <span class="progress-item__val">95%</span>
+            </div>
+            <div class="progress-bar-track">
+              <div class="progress-bar-fill fill--blue" style="width: 95%;"></div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="progress-item">
+            <div class="progress-item__head">
+              <span class="progress-item__badge badge--teal">02</span>
+              <span class="progress-item__title">Visual Behaviour</span>
+              <span class="progress-item__val">95%</span>
+            </div>
+            <div class="progress-bar-track">
+              <div class="progress-bar-fill fill--teal" style="width: 95%;"></div>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="progress-item">
+            <div class="progress-item__head">
+              <span class="progress-item__badge badge--emerald">03</span>
+              <span class="progress-item__title">Speech Confidence</span>
+              <span class="progress-item__val">95%</span>
+            </div>
+            <div class="progress-bar-track">
+              <div class="progress-bar-fill fill--emerald" style="width: 95%;"></div>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="progress-item">
+            <div class="progress-item__head">
+              <span class="progress-item__badge badge--amber">04</span>
+              <span class="progress-item__title">Adaptive Interview</span>
+              <span class="progress-item__val">95%</span>
+            </div>
+            <div class="progress-bar-track">
+              <div class="progress-bar-fill fill--amber" style="width: 95%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestones-link-wrap">
+          <a class="milestones-link" href="milestones.html">See all milestones &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Meet the team -->
+    <section id="team" class="section meet-team-section">
+      <div class="container">
+        <div class="team-header">
+          <h2 class="section-title">Meet the team</h2>
+          <a href="about.html" class="btn btn--primary btn--sm">About us &rarr;</a>
+        </div>
+
+        <div class="team-avatars-grid">
+          <!-- Member 1 -->
+          <div class="team-avatar-card">
+            <div class="avatar-circle">
+              <img class="avatar-img" src="assets/team/Superviser.jpg" alt="MS. Geethanjali Wimalaratne">
+            </div>
+            <div class="avatar-name">MS. Geethanjali Wimalaratne</div>
+            <div class="avatar-role">(Supervisor)</div>
+          </div>
+
+          <!-- Member 2 -->
+          <div class="team-avatar-card">
+            <div class="avatar-circle">
+              <img class="avatar-img" src="assets/team/co - superviser.jpg" alt="Prof Samantha Rajapaksha">
+            </div>
+            <div class="avatar-name">Prof Samantha Rajapaksha</div>
+            <div class="avatar-role">(Co-supervisor)</div>
+          </div>
+
+          <!-- Member 3 -->
+          <div class="team-avatar-card">
+            <div class="avatar-circle">
+              <img class="avatar-img" src="assets/team/sapun.jpeg" alt="Mendis A.S.P">
+            </div>
+            <div class="avatar-name">Mendis A.S.P</div>
+            <div class="avatar-role">(Team Leader)</div>
+          </div>
+
+          <!-- Member 4 -->
+          <div class="team-avatar-card">
+            <div class="avatar-circle">
+              <img class="avatar-img" src="assets/team/niveja.jpeg" alt="M N Kannangara">
+            </div>
+            <div class="avatar-name">M N Kannangara</div>
+            <div class="avatar-role">(Member)</div>
+          </div>
+
+          <!-- Member 5 -->
+          <div class="team-avatar-card">
+            <div class="avatar-circle">
+              <img class="avatar-img" src="assets/team/malshi.jpeg" alt="Nanayakkara N.H.R.M">
+            </div>
+            <div class="avatar-name">Nanayakkara N.H.R.M</div>
+            <div class="avatar-role">(Member)</div>
+          </div>
+
+          <!-- Member 6 -->
+          <div class="team-avatar-card">
+            <div class="avatar-circle">
+              <img class="avatar-img" src="assets/team/pasindu.png" alt="Kannangara P.M.K">
+            </div>
+            <div class="avatar-name">Kannangara P.M.K</div>
+            <div class="avatar-role">(Member)</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Main Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        
+        <!-- Col 1: Brand Info -->
+        <div class="footer-brand-col">
+          <a class="footer-brand" href="index.html">
+            <span class="footer-brand-text">HIRE<span class="brand-accent">NOVA</span></span>
+          </a>
+          <p class="footer-desc">An adaptive, multi-modal AI interview and candidate assessment platform.</p>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="footer-links-col">
+          <h4 class="footer__title">Quick Links</h4>
+          <ul class="footer__list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="domain.html">Domain</a></li>
+            <li><a href="milestones.html">Milestones</a></li>
+            <li><a href="documents.html">Documents</a></li>
+            <li><a href="slides.html">Slides</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Project Info -->
+        <div class="footer-info-col">
+          <h4 class="footer__title">Project Info</h4>
+          <ul class="footer-info-list">
+            <li>Group ID: R26-IT-105</li>
+            <li>SLIIT Faculty of Computing</li>
+            <li>B.Sc. (Hons) Information Technology</li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact -->
+        <div class="footer-contact-col">
+          <h4 class="footer__title">Contact</h4>
+          <ul class="footer-contact-list">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <a href="mailto:it21191510@sliit.lk">it21191510@sliit.lk</a>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <a href="tel:+94765409121">+94 76 540 9121</a>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              Faculty of Computing, SLIIT, New Kandy Road, Malabe, Sri Lanka
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Copyright Sub-Bar -->
+      <div class="footer__bottom">
+        <span class="copyright-text">&copy; <span data-year>2026</span> HireNova &middot; R26-IT-105 &middot; SLIIT Faculty of Computing</span>
+        <button class="back-to-top-btn" aria-label="Back to top">
+          Back to top
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- CV & Skill Graph - Learn More Modal -->
+  <div class="modal" id="cv-skill-graph-modal" role="dialog" aria-modal="true" aria-labelledby="cv-skill-graph-modal-title" aria-hidden="true">
+    <div class="modal__overlay" data-modal-close></div>
+    <div class="modal__panel" role="document">
+      <button class="modal__close" type="button" aria-label="Close" data-modal-close>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal__header">
+        <div class="modal__badge badge--blue">01</div>
+        <h3 class="modal__title" id="cv-skill-graph-modal-title">Skill Knowledge Graph &amp; CV Analyzer</h3>
+        <div class="modal__author">Mendis A.S.P</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Visual Behaviour & Micro-Expression - Learn More Modal -->
+  <div class="modal" id="visual-behaviour-modal" role="dialog" aria-modal="true" aria-labelledby="visual-behaviour-modal-title" aria-hidden="true">
+    <div class="modal__overlay" data-modal-close></div>
+    <div class="modal__panel" role="document">
+      <button class="modal__close" type="button" aria-label="Close" data-modal-close>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal__header">
+        <div class="modal__badge badge--teal">02</div>
+        <h3 class="modal__title" id="visual-behaviour-modal-title">Visual Behaviour &amp; Micro-Expression</h3>
+        <div class="modal__author">M N Kannangara</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Accent-Invariant Speech Confidence - Learn More Modal -->
+  <div class="modal" id="speech-confidence-modal" role="dialog" aria-modal="true" aria-labelledby="speech-confidence-modal-title" aria-hidden="true">
+    <div class="modal__overlay" data-modal-close></div>
+    <div class="modal__panel" role="document">
+      <button class="modal__close" type="button" aria-label="Close" data-modal-close>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal__header">
+        <div class="modal__badge badge--emerald">03</div>
+        <h3 class="modal__title" id="speech-confidence-modal-title">Accent-Invariant Speech Confidence</h3>
+        <div class="modal__author">Nanayakkara N.H.R.M</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Adaptive AI Interview - Learn More Modal -->
+  <div class="modal" id="adaptive-interview-modal" role="dialog" aria-modal="true" aria-labelledby="adaptive-interview-modal-title" aria-hidden="true">
+    <div class="modal__overlay" data-modal-close></div>
+    <div class="modal__panel" role="document">
+      <button class="modal__close" type="button" aria-label="Close" data-modal-close>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal__header">
+        <div class="modal__badge badge--amber">04</div>
+        <h3 class="modal__title" id="adaptive-interview-modal-title">Adaptive AI Interview</h3>
+        <div class="modal__author">Kannangara P.M.K</div>
+      </div>
+
+      <div class="modal__body">
+        <p>Automated recruitment platforms often present fixed interview questions and score answers only afterwards, so the interview cannot adapt to the candidate. The component studied here selects the difficulty of the next question during the interview from three live signals: the semantic score of the previous answer, a stress level, and a behavioral reliability tier derived from voice and video. It lacked an explicit specification, its verification stopped at the service boundary, and evidence for behavior-derived signals is mixed. This thesis aims to specify the component's behavior, verify it, and state how far the evidence extends.</p>
+
+        <p>A design-science approach was followed. The component is a FastAPI service within an eight-service platform that runs on CPU with a locally hosted model server. Its control law is simple and testable: a pure three-level difficulty function and a budgeted branching policy (follow-up, fact-weave, or job-description topic rotation) that keeps topic coverage central. Verification combined an automated test suite with measurements of the behavioral signals.</p>
+
+        <p>All 175 automated test scenarios passed, including every combination of answer score, stress level and reliability tier. The visual signal performed better than a simple baseline and ran fast enough for real-time use. the scoring of answers has not been checked against human ratings or stakeholder feedback.</p>
+
+        <p>The adaptation mechanism is therefore verified, whereas the validity of its input signals is not. The individual contribution is an adaptive control architecture with an executable specification and a verification record separating what is demonstrated from what is not. Remaining gaps concern concurrency, persistence, validity and test coverage.</p>
+
+        <p class="modal__keywords"><strong>Keywords:</strong> adaptive interviewing, computerized adaptive testing, semantic answer scoring, multimodal behavioral signals, design science research</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HireNova milestones, assessments, timeline and project status.">
+  <title>HireNova — Milestones</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="milestones-page">
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="HireNova Homepage">
+        <span class="brand-text">HIRE<span class="brand-accent">NOVA</span></span>
+      </a>
+
+      <nav class="nav" aria-label="Primary Navigation">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html">Home</a></li>
+          <li><a class="nav__link" href="domain.html">Domain</a></li>
+          <li><a class="nav__link active" href="milestones.html" aria-current="page">Milestones</a></li>
+          <li><a class="nav__link" href="documents.html">Documents</a></li>
+          <li><a class="nav__link" href="slides.html">Slides</a></li>
+          <li><a class="nav__link" href="about.html">About us</a></li>
+          <li><a class="nav__link" href="contact.html">Contact us</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__tools">
+        <button class="search-btn" aria-label="Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="milestones-main">
+    <section class="milestones-banner">
+      <div class="container milestones-banner__inner">
+        <div class="breadcrumbs">Home / Milestones</div>
+        <h1>Milestones</h1>
+        <p>Every assessment in the project, with its details, date and marks.</p>
+      </div>
+    </section>
+
+    <div class="container milestones-shell">
+      <section class="assessment-picker" aria-labelledby="assessment-heading">
+        <h2 id="assessment-heading" class="sr-only">Select an assessment</h2>
+        <div class="assessment-select" data-assessment-select>
+          <button type="button" class="assessment-select__trigger" aria-expanded="false" aria-controls="assessment-menu">
+            <span class="selected-value">Progress Presentation 1</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+
+          <div id="assessment-menu" class="assessment-select__menu" role="listbox" aria-label="Assessment choices">
+            <button class="assessment-option" type="button" role="option" aria-selected="false" data-target="proposal">Project Proposal</button>
+            <button class="assessment-option" type="button" role="option" aria-selected="false" data-target="proposal-presentation">Proposal Presentation</button>
+            <button class="assessment-option is-selected" type="button" role="option" aria-selected="true" data-target="progress-1">Progress Presentation 1</button>
+            <button class="assessment-option" type="button" role="option" aria-selected="false" data-target="progress-2">Progress Presentation 2</button>
+            <button class="assessment-option" type="button" role="option" aria-selected="false" data-target="checklist">Checklist Submission</button>
+            <button class="assessment-option" type="button" role="option" aria-selected="false" data-target="website">Website</button>
+            <button class="assessment-option" type="button" role="option" aria-selected="false" data-target="research-paper">Research Paper</button>
+            <button class="assessment-option" type="button" role="option" aria-selected="false" data-target="final-report">Final Report</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="assessment-panels">
+        <article class="assessment-panel is-visible" data-assessment-panel="progress-1">
+          <div class="panel-header">
+            <h3>Progress Presentation 1</h3>
+            <span class="status-badge">Completed</span>
+          </div>
+
+          <div class="info-grid">
+            <div class="info-card">
+              <div class="info-card__label">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h7l5 5v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm5 1.5V8h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 13h8M8 17h6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+                <span>Date</span>
+              </div>
+              <p>11 May 2026</p>
+            </div>
+
+            <div class="info-card">
+              <div class="info-card__label">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 14h12M6 18h9M7 4h10l3 3v12a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm1 0v5h8V4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span>Marks allocated</span>
+              </div>
+              <p>[XX]%</p>
+            </div>
+
+            <div class="info-card">
+              <div class="info-card__label">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5h10a2.5 2.5 0 0 1 2.5 2.5v10A2.5 2.5 0 0 1 17 19.5H7A2.5 2.5 0 0 1 4.5 17V7A2.5 2.5 0 0 1 7 4.5zm0 4.5h10" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+                </svg>
+                <span>Assessment type</span>
+              </div>
+              <p>Presentation</p>
+            </div>
+
+            <div class="info-card">
+              <div class="info-card__label">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM8 9h8M8 13h8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+                <span>Format</span>
+              </div>
+              <p>Panel presentation and live demo</p>
+            </div>
+          </div>
+
+          <div class="panel-details">
+            <div class="panel-details__title">Details</div>
+            <p>Each component's progress, design and prototype are presented to the panel and assessed on research problem, novelty, solution design and progress.</p>
+            <a href="https://mysliit-my.sharepoint.com/:p:/g/personal/it22116888_my_sliit_lk/IQDAHgcvgRVES76XQxUWhS0cAc4_dLh-4z7yWGjkB6v7Xsw?e=CImijy" class="panel-link">View slides</a>
+          </div>
+        </article>
+
+        <article class="assessment-panel" data-assessment-panel="proposal" hidden>
+          <div class="panel-header">
+            <h3>Project Proposal</h3>
+            <span class="status-badge status-badge--neutral">Pending</span>
+          </div>
+
+          <div class="info-grid">
+            <div class="info-card"><div class="info-card__label"><span>Date</span></div><p>Mar 2026</p></div>
+            <div class="info-card"><div class="info-card__label"><span>Marks allocated</span></div><p>[XX]%</p></div>
+            <div class="info-card"><div class="info-card__label"><span>Assessment type</span></div><p>Written proposal</p></div>
+            <div class="info-card"><div class="info-card__label"><span>Format</span></div><p>Document submission</p></div>
+          </div>
+
+          <div class="panel-details">
+            <div class="panel-details__title">Details</div>
+            <p>Proposal outlines the research gap, system scope, problem statement, objectives, milestones and expected outcomes.</p>
+          </div>
+
+          <div class="proposal-list">
+            <div class="panel-details__title">Proposal sections</div>
+            <div class="proposal-list__grid">
+              <div class="proposal-section"><span class="proposal-section__id">T21191510</span><span class="proposal-section__name">Mendis A.S.P</span><a href="https://mysliit-my.sharepoint.com/:b:/g/personal/it22116888_my_sliit_lk/IQATzMW771nHSJcey3OVs4SJAZMUIwF_ON7KaPbaXIzFlBM?e=OiZdhw" class="proposal-section__link" target="_blank" rel="noopener">View document</a></div>
+              <div class="proposal-section"><span class="proposal-section__id">IT22894960</span><span class="proposal-section__name">M N Kannangara</span><a href="https://mysliit-my.sharepoint.com/:b:/g/personal/it22116888_my_sliit_lk/IQCN5U2QORh2Q65lHsGv2bYiAcnuCngk6jAboMq6vDAMMog?e=JxVeVu" class="proposal-section__link" target="_blank" rel="noopener">View document</a></div>
+              <div class="proposal-section"><span class="proposal-section__id">IT22328748</span><span class="proposal-section__name">Nanayakkara N.H.R.M</span><a href="https://mysliit-my.sharepoint.com/:b:/g/personal/it22116888_my_sliit_lk/IQAOOrloEkQVRLf9p4IWDujjAawElNgdgYaEPNvStzdy7PM?e=z2Ksge" class="proposal-section__link" target="_blank" rel="noopener">View document</a></div>
+              <div class="proposal-section"><span class="proposal-section__id">IT22116888</span><span class="proposal-section__name">Kannangara P.M.K</span><a href="https://mysliit-my.sharepoint.com/:b:/g/personal/it22116888_my_sliit_lk/IQDSA1KVR2ojTJuALuIaNnB8AXoGaGzbRWmAO0ajpgsMfxU?e=Mnmvp5" class="proposal-section__link" target="_blank" rel="noopener">View document</a></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="assessment-panel" data-assessment-panel="proposal-presentation" hidden>
+          <div class="panel-header">
+            <h3>Proposal Presentation</h3>
+            <span class="status-badge status-badge--neutral">Pending</span>
+          </div>
+
+          <div class="info-grid">
+            <div class="info-card"><div class="info-card__label"><span>Date</span></div><p>Apr 2026</p></div>
+            <div class="info-card"><div class="info-card__label"><span>Marks allocated</span></div><p>[XX]%</p></div>
+            <div class="info-card"><div class="info-card__label"><span>Assessment type</span></div><p>Presentation</p></div>
+            <div class="info-card"><div class="info-card__label"><span>Format</span></div><p>Panel review</p></div>
+          </div>
+
+          <div class="panel-details">
+            <div class="panel-details__title">Details</div>
+            <p>Research team presents the project idea, feasibility and key architecture decisions before receiving faculty feedback.</p>
+            <a href="https://mysliit-my.sharepoint.com/:p:/g/personal/it22116888_my_sliit_lk/IQBUiKUEXBJbQY-tlajGFJfpAZRXWmOgoxOtN6zDGfMN41M?e=VZdBSV" class="panel-link">View slides</a>
+          </div>
+        </article>
+
+        <article class="assessment-panel" data-assessment-panel="checklist" hidden>
+          <div class="panel-header">
+            <h3>Checklist Submission</h3>
+            <span class="status-badge status-badge--neutral">Pending</span>
+          </div>
+
+          <div class="info-grid">
+            <div class="info-card"><div class="info-card__label"><span>Date</span></div><p>May 2026</p></div>
+            <div class="info-card"><div class="info-card__label"><span>Marks allocated</span></div><p>[XX]%</p></div>
+            <div class="info-card"><div class="info-card__label"><span>Assessment type</span></div><p>Submission</p></div>
+            <div class="info-card"><div class="info-card__label"><span>Format</span></div><p>Checklist review</p></div>
+          </div>
+
+          <div class="panel-details">
+            <div class="panel-details__title">Details</div>
+            <p>The checklist validates milestones, required artifacts, documentation quality and project readiness for upcoming review phases.</p>
+          </div>
+
+          <div class="doc-list">
+            <div class="panel-details__title">Documents</div>
+            <div class="doc-list__items">
+              <div class="doc-item doc-item--submitted">
+                <span class="doc-status doc-status--done">Submitted</span>
+                <span class="doc-name">Git Repository:README.MD file</span>
+                <a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it22116888_my_sliit_lk/IgAIiTm1Q2M6RZNlKo-F4Kn0AToU9G9KN6-SC0KISIq0kQ4?e=ocdm8K" class="doc-link">View</a>
+              </div>
+              <div class="doc-item doc-item--submitted">
+                <span class="doc-status doc-status--done">Submitted</span>
+                <span class="doc-name">MS Planner Report: Export report from PM tool</span>
+                <a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it22116888_my_sliit_lk/IgBtBW8JJIiDTqjbPQX2ZFFYARxms2xeLWpDlnd5agi72fA?e=p6nYjs" class="doc-link">View</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="assessment-panel" data-assessment-panel="progress-2" hidden>
+          <div class="panel-header">
+            <h3>Progress Presentation 2</h3>
+            <span class="status-badge status-badge--neutral">Pending</span>
+          </div>
+
+          <div class="info-grid">
+            <div class="info-card"><div class="info-card__label"><span>Date</span></div><p>Jun 2026</p></div>
+            <div class="info-card"><div class="info-card__label"><span>Marks allocated</span></div><p>[XX]%</p></div>
+            <div class="info-card"><div class="info-card__label"><span>Assessment type</span></div><p>Presentation</p></div>
+            <div class="info-card"><div class="info-card__label"><span>Format</span></div><p>Prototype review</p></div>
+          </div>
+
+          <div class="panel-details">
+            <div class="panel-details__title">Details</div>
+            <p>Team presents progress against milestones, current implementation, test evidence and planned optimization path.</p>
+            <a href="https://mysliit-my.sharepoint.com/:p:/g/personal/it22116888_my_sliit_lk/IQDr5fqd_ZjzR5btcvGy0ITAAQm5uu2EXmbkOx4668dX-h4?e=WfvFRy" class="panel-link">View slides</a>
+          </div>
+        </article>
+
+        <article class="assessment-panel" data-assessment-panel="final-report" hidden>
+          <div class="panel-header">
+            <h3>Final Report</h3>
+            <span class="status-badge status-badge--neutral">Pending</span>
+          </div>
+
+          <div class="info-grid">
+            <div class="info-card"><div class="info-card__label"><span>Date</span></div><p>Sep 2026</p></div>
+            <div class="info-card"><div class="info-card__label"><span>Marks allocated</span></div><p>[XX]%</p></div>
+            <div class="info-card"><div class="info-card__label"><span>Assessment type</span></div><p>Report</p></div>
+            <div class="info-card"><div class="info-card__label"><span>Format</span></div><p>Document submission</p></div>
+          </div>
+
+          <div class="panel-details">
+            <div class="panel-details__title">Details</div>
+            <p>The complete research report covering the full design, implementation, testing, evaluation and outcomes of the project.</p>
+            <a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it22116888_my_sliit_lk/IgB-sBcTYQO8SL4nY-NRQChMAURZShRVN2ex9gI8F1lH8sw?e=oBUkVz" class="panel-link">View report</a>
+          </div>
+        </article>
+
+        <article class="assessment-panel" data-assessment-panel="research-paper" hidden>
+          <div class="panel-header">
+            <h3>Research Paper</h3>
+            <span class="status-badge status-badge--neutral">Pending</span>
+          </div>
+
+          <div class="info-grid">
+            <div class="info-card"><div class="info-card__label"><span>Date</span></div><p>Nov 2026</p></div>
+            <div class="info-card"><div class="info-card__label"><span>Marks allocated</span></div><p>[XX]%</p></div>
+            <div class="info-card"><div class="info-card__label"><span>Assessment type</span></div><p>Publication</p></div>
+            <div class="info-card"><div class="info-card__label"><span>Format</span></div><p>Paper submission</p></div>
+          </div>
+
+          <div class="panel-details">
+            <div class="panel-details__title">Details</div>
+            <p>Research paper summarising the system architecture, experiments, findings and contributions from the HireNova project.</p>
+            <a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it22116888_my_sliit_lk/IgDNRb1AfalWRrxHb9sPvrufAUG3Da6SPujNid_eKBK6joo?e=ID2KlX" class="panel-link">View paper</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="timeline-section" aria-labelledby="timeline-heading">
+        <h3 id="timeline-heading">Assessment Timeline</h3>
+
+        <div class="timeline-wrap">
+          <div class="timeline-strip">
+            <div class="timeline-item is-done"><span>15th March 2026</span><strong>Proposal Submission</strong></div>
+            <div class="timeline-item is-done"><span>16th – 18th March 2026</span><strong>Proposal Presentation</strong></div>
+            <div class="timeline-item is-done"><span>13th May 2026</span><strong>Check List submission</strong></div>
+            <div class="timeline-item is-done"><span>11th – 13th May 2026</span><strong>Progress Presentation 1</strong></div>
+            <div class="timeline-item is-done"><span>31st Aug – 02nd Sep 2026</span><strong>Progress Presentation 2</strong></div>
+            <div class="timeline-item is-active"><span>11th October 2026</span><strong>Draft Thesis submission</strong></div>
+            <div class="timeline-item"><span>11th October 2026</span><strong>Website Submission</strong></div>
+            <div class="timeline-item"><span>14th October 2026</span><strong>Final Check List submission</strong></div>
+            <div class="timeline-item"><span>19th – 21st October 2026</span><strong>Final Presentation and Viva</strong></div>
+            <div class="timeline-item"><span>19th – 21st October 2026</span><strong>Website evaluation &amp; Logbook</strong></div>
+            <div class="timeline-item"><span>23rd October 2026</span><strong>Research Paper submission</strong></div>
+            <div class="timeline-item"><span>28th October 2026</span><strong>Final Thesis Submission</strong></div>
+            <div class="timeline-item"><span>1st December 2026</span><strong>Research Paper publication evidence</strong></div>
+          </div>
+        </div>
+
+        <div class="timeline-note">
+          <span class="info-dot">i</span>
+          <p>Dates and marks are updated as the schedule is confirmed.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer-brand-block">
+          <div class="footer-brand">
+            <div class="footer-brand-text">HIRE<span class="brand-accent">NOVA</span></div>
+          </div>
+          <p>An adaptive, multi-modal AI interview and candidate assessment platform.</p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="slides.html">Slides</a></li>
+            <li><a href="domain.html">Domain</a></li>
+            <li><a href="milestones.html">Milestones</a></li>
+            <li><a href="documents.html">Documents</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Project Info</h4>
+          <ul>
+            <li>Group ID: R26-IT-105</li>
+            <li>SLIIT Faculty of Computing</li>
+            <li>B.Sc. (Hons) Information Technology</li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <ul class="footer-contact-list">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <a href="mailto:it21191510@sliit.lk">it21191510@sliit.lk</a>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <a href="tel:+94765409121">+94 76 540 9121</a>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              Faculty of Computing, SLIIT, New Kandy Road, Malabe, Sri Lanka
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 HireNova • R26-IT-105 • SLIIT Faculty of Computing</p>
+        <a href="#top" class="back-to-top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/milestones.js"></script>
+</body>
+</html>
